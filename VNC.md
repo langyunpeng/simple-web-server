@@ -2,7 +2,15 @@
 
 ## How to use for a Gitpod workspace
 
+
 https://github.com/gitpod-io/workspace-images/blob/axonasif/add_docs/chunks/tool-vnc/README.md
+
+Access to noVNC
+```
+gp preview "$(gp url 6080)" --external
+```
+
+
 
 Put the following line in your `.gitpod.yml`:
 
